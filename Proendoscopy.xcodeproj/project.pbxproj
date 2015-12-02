@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169FCA071C0E711200C98723 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 169FCA061C0E711200C98723 /* main.m */; };
+		169FCA0A1C0E711200C98723 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 169FCA091C0E711200C98723 /* AppDelegate.m */; };
+		169FCA0D1C0E711200C98723 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 169FCA0C1C0E711200C98723 /* ViewController.m */; };
+		169FCA101C0E711200C98723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169FCA0E1C0E711200C98723 /* Main.storyboard */; };
+		169FCA131C0E711200C98723 /* Proendoscopy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 169FCA111C0E711200C98723 /* Proendoscopy.xcdatamodeld */; };
+		169FCA151C0E711200C98723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 169FCA141C0E711200C98723 /* Assets.xcassets */; };
+		169FCA181C0E711200C98723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 169FCA161C0E711200C98723 /* LaunchScreen.storyboard */; };
+		169FCA231C0E711300C98723 /* ProendoscopyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169FCA221C0E711300C98723 /* ProendoscopyTests.m */; };
+		169FCA2E1C0E711300C98723 /* ProendoscopyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 169FCA2D1C0E711300C98723 /* ProendoscopyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		169FCA1F1C0E711300C98723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169FC9FA1C0E711200C98723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169FCA011C0E711200C98723;
+			remoteInfo = Proendoscopy;
+		};
+		169FCA2A1C0E711300C98723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 169FC9FA1C0E711200C98723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 169FCA011C0E711200C98723;
+			remoteInfo = Proendoscopy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		169FCA021C0E711200C98723 /* Proendoscopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proendoscopy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		169FCA061C0E711200C98723 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		169FCA081C0E711200C98723 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		169FCA091C0E711200C98723 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		169FCA0B1C0E711200C98723 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		169FCA0C1C0E711200C98723 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		169FCA0F1C0E711200C98723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		169FCA121C0E711200C98723 /* Proendoscopy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Proendoscopy.xcdatamodel; sourceTree = "<group>"; };
+		169FCA141C0E711200C98723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		169FCA171C0E711200C98723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		169FCA191C0E711200C98723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169FCA1E1C0E711300C98723 /* ProendoscopyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProendoscopyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169FCA221C0E711300C98723 /* ProendoscopyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProendoscopyTests.m; sourceTree = "<group>"; };
+		169FCA241C0E711300C98723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		169FCA291C0E711300C98723 /* ProendoscopyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProendoscopyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		169FCA2D1C0E711300C98723 /* ProendoscopyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProendoscopyUITests.m; sourceTree = "<group>"; };
+		169FCA2F1C0E711300C98723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		169FC9FF1C0E711200C98723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FCA1B1C0E711300C98723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FCA261C0E711300C98723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169FC9F91C0E711200C98723 = {
+			isa = PBXGroup;
+			children = (
+				169FCA041C0E711200C98723 /* Proendoscopy */,
+				169FCA211C0E711300C98723 /* ProendoscopyTests */,
+				169FCA2C1C0E711300C98723 /* ProendoscopyUITests */,
+				169FCA031C0E711200C98723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		169FCA031C0E711200C98723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				169FCA021C0E711200C98723 /* Proendoscopy.app */,
+				169FCA1E1C0E711300C98723 /* ProendoscopyTests.xctest */,
+				169FCA291C0E711300C98723 /* ProendoscopyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		169FCA041C0E711200C98723 /* Proendoscopy */ = {
+			isa = PBXGroup;
+			children = (
+				169FCA081C0E711200C98723 /* AppDelegate.h */,
+				169FCA091C0E711200C98723 /* AppDelegate.m */,
+				169FCA0B1C0E711200C98723 /* ViewController.h */,
+				169FCA0C1C0E711200C98723 /* ViewController.m */,
+				169FCA0E1C0E711200C98723 /* Main.storyboard */,
+				169FCA141C0E711200C98723 /* Assets.xcassets */,
+				169FCA161C0E711200C98723 /* LaunchScreen.storyboard */,
+				169FCA191C0E711200C98723 /* Info.plist */,
+				169FCA111C0E711200C98723 /* Proendoscopy.xcdatamodeld */,
+				169FCA051C0E711200C98723 /* Supporting Files */,
+			);
+			path = Proendoscopy;
+			sourceTree = "<group>";
+		};
+		169FCA051C0E711200C98723 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				169FCA061C0E711200C98723 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		169FCA211C0E711300C98723 /* ProendoscopyTests */ = {
+			isa = PBXGroup;
+			children = (
+				169FCA221C0E711300C98723 /* ProendoscopyTests.m */,
+				169FCA241C0E711300C98723 /* Info.plist */,
+			);
+			path = ProendoscopyTests;
+			sourceTree = "<group>";
+		};
+		169FCA2C1C0E711300C98723 /* ProendoscopyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				169FCA2D1C0E711300C98723 /* ProendoscopyUITests.m */,
+				169FCA2F1C0E711300C98723 /* Info.plist */,
+			);
+			path = ProendoscopyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		169FCA011C0E711200C98723 /* Proendoscopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169FCA321C0E711300C98723 /* Build configuration list for PBXNativeTarget "Proendoscopy" */;
+			buildPhases = (
+				169FC9FE1C0E711200C98723 /* Sources */,
+				169FC9FF1C0E711200C98723 /* Frameworks */,
+				169FCA001C0E711200C98723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Proendoscopy;
+			productName = Proendoscopy;
+			productReference = 169FCA021C0E711200C98723 /* Proendoscopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		169FCA1D1C0E711300C98723 /* ProendoscopyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169FCA351C0E711300C98723 /* Build configuration list for PBXNativeTarget "ProendoscopyTests" */;
+			buildPhases = (
+				169FCA1A1C0E711300C98723 /* Sources */,
+				169FCA1B1C0E711300C98723 /* Frameworks */,
+				169FCA1C1C0E711300C98723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169FCA201C0E711300C98723 /* PBXTargetDependency */,
+			);
+			name = ProendoscopyTests;
+			productName = ProendoscopyTests;
+			productReference = 169FCA1E1C0E711300C98723 /* ProendoscopyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		169FCA281C0E711300C98723 /* ProendoscopyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 169FCA381C0E711300C98723 /* Build configuration list for PBXNativeTarget "ProendoscopyUITests" */;
+			buildPhases = (
+				169FCA251C0E711300C98723 /* Sources */,
+				169FCA261C0E711300C98723 /* Frameworks */,
+				169FCA271C0E711300C98723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				169FCA2B1C0E711300C98723 /* PBXTargetDependency */,
+			);
+			name = ProendoscopyUITests;
+			productName = ProendoscopyUITests;
+			productReference = 169FCA291C0E711300C98723 /* ProendoscopyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		169FC9FA1C0E711200C98723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = FIU;
+				TargetAttributes = {
+					169FCA011C0E711200C98723 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					169FCA1D1C0E711300C98723 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 169FCA011C0E711200C98723;
+					};
+					169FCA281C0E711300C98723 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 169FCA011C0E711200C98723;
+					};
+				};
+			};
+			buildConfigurationList = 169FC9FD1C0E711200C98723 /* Build configuration list for PBXProject "Proendoscopy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 169FC9F91C0E711200C98723;
+			productRefGroup = 169FCA031C0E711200C98723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				169FCA011C0E711200C98723 /* Proendoscopy */,
+				169FCA1D1C0E711300C98723 /* ProendoscopyTests */,
+				169FCA281C0E711300C98723 /* ProendoscopyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		169FCA001C0E711200C98723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FCA181C0E711200C98723 /* LaunchScreen.storyboard in Resources */,
+				169FCA151C0E711200C98723 /* Assets.xcassets in Resources */,
+				169FCA101C0E711200C98723 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FCA1C1C0E711300C98723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FCA271C0E711300C98723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		169FC9FE1C0E711200C98723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FCA0D1C0E711200C98723 /* ViewController.m in Sources */,
+				169FCA0A1C0E711200C98723 /* AppDelegate.m in Sources */,
+				169FCA131C0E711200C98723 /* Proendoscopy.xcdatamodeld in Sources */,
+				169FCA071C0E711200C98723 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FCA1A1C0E711300C98723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FCA231C0E711300C98723 /* ProendoscopyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		169FCA251C0E711300C98723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169FCA2E1C0E711300C98723 /* ProendoscopyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		169FCA201C0E711300C98723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169FCA011C0E711200C98723 /* Proendoscopy */;
+			targetProxy = 169FCA1F1C0E711300C98723 /* PBXContainerItemProxy */;
+		};
+		169FCA2B1C0E711300C98723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 169FCA011C0E711200C98723 /* Proendoscopy */;
+			targetProxy = 169FCA2A1C0E711300C98723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		169FCA0E1C0E711200C98723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169FCA0F1C0E711200C98723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		169FCA161C0E711200C98723 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				169FCA171C0E711200C98723 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		169FCA301C0E711300C98723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		169FCA311C0E711300C98723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		169FCA331C0E711300C98723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Proendoscopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.Proendoscopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		169FCA341C0E711300C98723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Proendoscopy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.Proendoscopy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		169FCA361C0E711300C98723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProendoscopyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.ProendoscopyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proendoscopy.app/Proendoscopy";
+			};
+			name = Debug;
+		};
+		169FCA371C0E711300C98723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProendoscopyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.ProendoscopyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proendoscopy.app/Proendoscopy";
+			};
+			name = Release;
+		};
+		169FCA391C0E711300C98723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProendoscopyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.ProendoscopyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Proendoscopy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		169FCA3A1C0E711300C98723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProendoscopyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fiu.ProendoscopyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Proendoscopy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		169FC9FD1C0E711200C98723 /* Build configuration list for PBXProject "Proendoscopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FCA301C0E711300C98723 /* Debug */,
+				169FCA311C0E711300C98723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		169FCA321C0E711300C98723 /* Build configuration list for PBXNativeTarget "Proendoscopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FCA331C0E711300C98723 /* Debug */,
+				169FCA341C0E711300C98723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		169FCA351C0E711300C98723 /* Build configuration list for PBXNativeTarget "ProendoscopyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FCA361C0E711300C98723 /* Debug */,
+				169FCA371C0E711300C98723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		169FCA381C0E711300C98723 /* Build configuration list for PBXNativeTarget "ProendoscopyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FCA391C0E711300C98723 /* Debug */,
+				169FCA3A1C0E711300C98723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		169FCA111C0E711200C98723 /* Proendoscopy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				169FCA121C0E711200C98723 /* Proendoscopy.xcdatamodel */,
+			);
+			currentVersion = 169FCA121C0E711200C98723 /* Proendoscopy.xcdatamodel */;
+			path = Proendoscopy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 169FC9FA1C0E711200C98723 /* Project object */;
+}
